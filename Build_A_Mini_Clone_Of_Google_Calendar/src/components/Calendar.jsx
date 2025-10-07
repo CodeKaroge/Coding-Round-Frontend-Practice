@@ -29,6 +29,7 @@ function formatDate(date) {
     return `${year}-${month}-${day}`;
 }
 
+
 function CustomDay(props) {
     const { day, outsideCurrentMonth, events, ...other } = props;
     const hasEvent = events?.[formatDate(day)]?.length > 0;
