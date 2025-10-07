@@ -1,0 +1,19 @@
+{
+  "name": "Coding-Round-Frontend-Practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "How_to_build_a_custom_timer_hook_in_React",
+    "Build_A_Mini_Clone_Of_Google_Calendar"
+  ],
+  "scripts": {
+    "dev:How_to_build_a_custom_timer_hook_in_React": "pnpm --filter How_to_build_a_custom_timer_hook_in_React dev",
+    "dev:Build_A_Mini_Clone_Of_Google_Calendar": "pnpm --filter Build_A_Mini_Clone_Of_Google_Calendar dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.0"
+}
